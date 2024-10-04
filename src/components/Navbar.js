@@ -21,7 +21,7 @@ const Navbar = ({mod, setMod, setcol_1}) => {
         setcol_2('black')
         setbtn_txt('Disable')
 
-        setMessage('Darkmode Enabled')
+        setMessage('Dark Mode Enabled')
         setTimeout(() => {
             setMessage('')
            }, 1500);
@@ -34,7 +34,7 @@ const Navbar = ({mod, setMod, setcol_1}) => {
         setcol_2('white')
         setbtn_txt('Enable')
 
-        setMessage('Darkmode Disabled')
+        setMessage('Dark Mode Disabled')
         setTimeout(() => {
             setMessage('')
            }, 1500);
@@ -54,7 +54,7 @@ const Navbar = ({mod, setMod, setcol_1}) => {
             <div className="press">{message}</div>
             <div className="form-check form-switch switch" style={{backgroundImage : mod_2, color:col_2}}>
                 <input className="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" onClick={changeMod}/>
-                    <label className="form-check-label" htmlFor="flexSwitchCheckDefault" >{btn_txt} Darkmode</label>
+                    <label className="form-check-label" htmlFor="flexSwitchCheckDefault" >{btn_txt} Dark Mode</label>
             </div>
         </div>
     )

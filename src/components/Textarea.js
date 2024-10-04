@@ -51,7 +51,7 @@ const Textarea = ({mod, col_1}) => {
           </div>
         </div>
         <div className="vowel">
-          <p>Total Vowals</p>
+          <p>Total Vowels</p>
           <h1>{vowals}</h1>
         </div>
       </div>
