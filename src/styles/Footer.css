@@ -14,16 +14,21 @@
     font-weight: 500;
 }
 
-.footer a {
+.details a {
     text-decoration: none;
     background-color: white;
     padding: 0.2rem;
     border-radius: 0.5rem;
     color: blue;
     margin: 0rem 0.5rem;
+    font-size: 1.1rem;
 }
 
-.footer a:hover {
+.details a:hover {
     color: black;
     background-color: rgb(107, 209, 249);
+}
+
+.credit a {
+    font-size: 0.5rem;
 }
