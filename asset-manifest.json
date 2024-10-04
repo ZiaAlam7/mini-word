@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/mini-word/static/css/main.00764edc.css",
+    "main.js": "/mini-word/static/js/main.78375695.js",
+    "static/js/453.c323bfa0.chunk.js": "/mini-word/static/js/453.c323bfa0.chunk.js",
+    "static/media/word.png": "/mini-word/static/media/word.d4240e698c2128919cb4.png",
+    "index.html": "/mini-word/index.html",
+    "main.00764edc.css.map": "/mini-word/static/css/main.00764edc.css.map",
+    "main.78375695.js.map": "/mini-word/static/js/main.78375695.js.map",
+    "453.c323bfa0.chunk.js.map": "/mini-word/static/js/453.c323bfa0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.00764edc.css",
+    "static/js/main.78375695.js"
+  ]
+}
