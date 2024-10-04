@@ -1,0 +1,29 @@
+.footer {
+    color: white;
+    padding: 1rem;
+    color: white;
+    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+    margin-top: 1rem;
+    border-radius: 2rem;
+    text-align: center;
+    width: 100%;
+}
+
+.details {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.footer a {
+    text-decoration: none;
+    background-color: white;
+    padding: 0.2rem;
+    border-radius: 0.5rem;
+    color: blue;
+    margin: 0rem 0.5rem;
+}
+
+.footer a:hover {
+    color: black;
+    background-color: rgb(107, 209, 249);
+}

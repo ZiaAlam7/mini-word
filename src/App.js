@@ -1,24 +1,25 @@
-import logo from './logo.svg';
+import { createContext, useState } from 'react';
 import './App.css';
+import Footer from './components/Footer';
+import Navbar from './components/Navbar';
+import Textarea from './components/Textarea';
+import { messageContext } from './Context/Context';
 
 function App() {
+
+  const [mod, setMod] = useState('linear-gradient(to top, #fddb92 0%, #d1fdff 100%)')
+  const [col_1, setcol_1] = useState('black')
+
+  const [message, setMessage] = useState('')
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <messageContext.Provider value={{message, setMessage}}>
+      <Navbar mod={mod} setMod={setMod} setcol_1={setcol_1}/>
+      <Textarea mod={mod} col_1={col_1}/>
+      <Footer/>
+      </messageContext.Provider>
+    </>
   );
 }
 

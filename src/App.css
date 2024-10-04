@@ -1,38 +1,146 @@
-.App {
-  text-align: center;
+* {
+  padding: 3px 5px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html {
+  font-size: 16px;
+  /* Base font size */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+::-webkit-scrollbar {
+  width: 8px;
+  /* Width of the scrollbar */
+  height: 8px;
+  /* Height of the scrollbar */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #888;
+  /* Color of the scroll thumb */
+  border-radius: 4px;
+  /* Rounded corners */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+  /* Darker color on hover */
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  /* Color of the scrollbar track */
+}
+
+
+@media (max-width: 1380px ) {
+
+  .buttons {
+    flex-wrap: wrap;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .r_f {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
-  to {
-    transform: rotate(360deg);
+
+  
+  .replace {
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+
+  .navbar {
+    color: black;
+    margin-bottom: 1rem;
+    padding: 0rem 0.5rem !important;
+  }
+
+  .navbar .logo {
+    font-size: 1.5rem;
+  }
+
+  .logo img {
+    width: 4rem !important;
+    margin-right: 0.3rem !important;
+}
+
+  .switch {
+    width: 35% !important;
+    gap: 1em !important;
+    padding: 0;
+    height: 3rem !important;
+
+  }
+
+  .form-check-label {
+    font-size: 0.8rem;
+  }
+
+  .form-check-input {
+    margin-left: 5px !important;
+  }
+
+  .press {
+    display: none;
+  }
+
+
+  /* CSS for textarea */
+
+  .text_detail {
+    flex-wrap: wrap;
+  }
+
+  .characters {
+    width: 50% !important;
+  }
+
+  .words {
+    border-right: 0px !important;
+    width: 50% !important;
+  }
+
+  .read_time {
+    width: 50% !important;
+    border-top: 1px solid black;
+    padding-top: 1rem;
+  }
+
+  .vowel {
+    width: 50% !important;
+    border-top: 1px solid black;
+    padding-top: 1rem;
+  }
+
+  .textarea textarea {
+    width: 100% !important;
+  }
+
+
+/* Css for buttons */
+  .tooltip-text {
+    display: none;
+  }
+
+
+  /* css for replace */
+
+  .r_f  {
+    width: 100% !important;
+  }
+
+  .r_f button {
+    margin-top: 1rem;
+  }
+
+  .replace input {
+    width: 100%;
+  }
+
+  .button-29 {
+    font-size: 1.2rem !important;
   }
 }
